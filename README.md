@@ -30,4 +30,39 @@ Competency report for a single user
 Import assessment results from CSV
 The ability to import assessment results from a CSV file
 The CSV file would contain columns user_id, assessment_id, score, date_taken
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***first import the following modules to run***
+from cgitb import text
 
+import sqlite3
+
+import pandas as pd
+
+# from subprocess import call
+
+import bcrypt
+
+import csv
+
+import datetime
+
+import sys
+
+
+***then you will be brought to a display menu that looks like this***
+Menu
+1). Add User
+2). Edit User
+3). Add Competency
+4). Edit Competency
+5). Add Assessment
+6). Edit Assessment
+7). Add Assessment Result
+8). Edit Assessment Result
+9). Export to CSV
+e). Exit
+
+How can I help you today?
+
+
+***First you have to add a user, then add an assessment, then add an assessment_result. Once those are in there should be data in the sqlite db that you can export.***
