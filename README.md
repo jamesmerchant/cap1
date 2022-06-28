@@ -38,7 +38,7 @@ import sqlite3
 
 import pandas as pd
 
-# from subprocess import call
+
 
 import bcrypt
 
@@ -49,7 +49,7 @@ import datetime
 import sys
 
 
-***then you will be brought to a display menu that looks like this***
+//then you will be brought to a display menu that looks like this
 Menu
 1). Add User
 2). Edit User
